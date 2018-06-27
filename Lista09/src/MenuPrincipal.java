@@ -43,7 +43,7 @@ public class MenuPrincipal implements BaseInterface {
     @Override
     public void gerarTela() {
         jFrame = new JFrame();
-        jFrame.setSize(500, 500);
+        jFrame.setSize(505, 400);
         jFrame.setLayout(null);
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -78,27 +78,27 @@ public class MenuPrincipal implements BaseInterface {
     @Override
     public void gerarLocalizacoes() {
         jButton01.setLocation(10, 10);
-        jButton02.setLocation(120, 10);
-        jButton03.setLocation(230, 10);
-        jButton04.setLocation(340, 10);
+        jButton02.setLocation(130, 10);
+        jButton03.setLocation(250, 10);
+        jButton04.setLocation(370, 10);
         jButton05.setLocation(10, 120);
-        jButton06.setLocation(120, 120);
-        jButton07.setLocation(230, 120);
-        jButton08.setLocation(340, 120);
+        jButton06.setLocation(130, 120);
+        jButton07.setLocation(250, 120);
+        jButton08.setLocation(370, 120);
         jButton09.setLocation(10, 230);
     }
 
     @Override
     public void gerarDimensoes() {
-        jButton01.setSize(100, 100);
-        jButton02.setSize(100, 100);
-        jButton03.setSize(100, 100);
-        jButton04.setSize(100, 100);
-        jButton05.setSize(100, 100);
-        jButton06.setSize(100, 100);
-        jButton07.setSize(100, 100);
-        jButton08.setSize(100, 100);
-        jButton09.setSize(100, 100);
+        jButton01.setSize(110, 100);
+        jButton02.setSize(110, 100);
+        jButton03.setSize(110, 100);
+        jButton04.setSize(110, 100);
+        jButton05.setSize(110, 100);
+        jButton06.setSize(110, 100);
+        jButton07.setSize(110, 100);
+        jButton08.setSize(110, 100);
+        jButton09.setSize(110, 100);
     }
 
     public void acaoJButton01() {

@@ -2,6 +2,8 @@ package exercicio01;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -32,8 +34,8 @@ public class E01L09 implements BaseInterface {
     public void instanciarComponentes() {
         jLabelNome = new JLabel("Nome");
         jLabelSobrenome = new JLabel("Sobrenome");
-        jTextFieldNome = new JTextField("Nome");
-        jTextFieldSobrenome = new JTextField("Sobrenome");
+        jTextFieldNome = new JTextField();
+        jTextFieldSobrenome = new JTextField();
         jButtonConcantenar = new JButton("Concatenar");
     }
 
@@ -60,7 +62,7 @@ public class E01L09 implements BaseInterface {
         jLabelNome.setLocation(10, 10);
         jTextFieldNome.setLocation(10, 40);
         jLabelSobrenome.setLocation(240, 10);
-        jTextFieldSobrenome.setLocation(240, 10);
+        jTextFieldSobrenome.setLocation(240, 40);
         jButtonConcantenar.setLocation(250, 250);
     }
 
@@ -78,11 +80,11 @@ public class E01L09 implements BaseInterface {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null,
+                JOptionPane.showMessageDialog(jFrame,
                         (jTextFieldNome.getText().trim())
                         + " " + (jTextFieldSobrenome.getText().trim()));
+
             }
         });
     }
-
 }
