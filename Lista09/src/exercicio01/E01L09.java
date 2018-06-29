@@ -2,8 +2,6 @@ package exercicio01;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -15,10 +13,10 @@ import javax.swing.JTextField;
  */
 public class E01L09 implements BaseInterface {
 
-    JFrame jFrame;
-    JLabel jLabelNome, jLabelSobrenome;
-    JTextField jTextFieldNome, jTextFieldSobrenome;
-    JButton jButtonConcantenar;
+    private JFrame jFrame;
+    private JLabel jLabelNome, jLabelSobrenome;
+    private JTextField jTextFieldNome, jTextFieldSobrenome;
+    private JButton jButtonConcantenar;
 
     public E01L09() {
         instanciarComponentes();
@@ -44,7 +42,7 @@ public class E01L09 implements BaseInterface {
         jFrame = new JFrame();
         jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         jFrame.setLayout(null);
-        jFrame.setSize(500, 500);
+        jFrame.setSize(500, 400);
         jFrame.setLocationRelativeTo(null);
     }
 

@@ -1,5 +1,7 @@
 import exercicio01.BaseInterface;
 import exercicio01.E01L09;
+import exercicio02.E02L09;
+import exercicio03.E03L09;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -114,7 +116,7 @@ public class MenuPrincipal implements BaseInterface {
         jButton02.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new E01L09();
+                new E02L09();
             }
         });
     }
@@ -123,7 +125,7 @@ public class MenuPrincipal implements BaseInterface {
         jButton03.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new E01L09();
+                new E03L09();
             }
         });
     }

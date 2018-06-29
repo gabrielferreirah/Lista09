@@ -3,7 +3,7 @@ import java.awt.EventQueue;
 
 
 /**
- * @author Alunos
+ * @author Gabriel de Oliveira Ferreira
  */
 public class Lista09 {
 
